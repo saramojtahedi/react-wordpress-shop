@@ -1,0 +1,22 @@
+
+.post-container {
+    background-color: #fafafa;
+    width: 90%;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.post-image {
+    width: 50%;
+    margin: auto;
+}
+
+.comment_sec {
+    height: auto !important;
+    margin: 1.4rem 0;
+}

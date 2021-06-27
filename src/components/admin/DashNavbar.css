@@ -1,0 +1,46 @@
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 140px;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.sideMenu {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(57, 83, 117);
+    height: 100vh;
+    padding: 2rem 1rem;
+    list-style: none;
+    text-align: right;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.sideMenu li {
+    margin: 2rem 0;
+}
+
+.sideMenu li a {
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        width: 75px;
+    }
+
+    .sideMenu {
+        padding: 2rem 0.5rem;
+    }
+    
+    .sideMenu li {
+        margin: 2rem 0;
+    }
+    
+    .sideMenu li a {
+        font-size: 10px;
+    }
+}

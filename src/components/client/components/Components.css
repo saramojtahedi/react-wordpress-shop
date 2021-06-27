@@ -1,0 +1,149 @@
+
+.mainpage_header {
+    padding: 0 3rem;
+    height: 84vh;
+}
+
+.car-item {
+    padding: 0 1rem;
+    direction: rtl;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000 !important;
+}
+
+.main-banner {
+    margin: 1rem 0 5rem 0;
+    height: 550px;
+    position: relative;
+}
+
+.banner {
+    flex: 1;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+    transition: all 0.4s;
+}
+
+.banner:hover {
+    box-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.kits_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.main_content {
+    z-index: 2;
+    color: #000;
+    position: inherit;
+}
+
+.main_content h3 {
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.main_content p {
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+.articles {
+    margin: 2rem 0;
+    margin-top: 8rem;
+}
+
+.article_card {
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    height: 400px !important;
+}
+
+.article_card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    position: inherit;
+    z-index: 3;
+    display: block;
+    color: #000;
+}
+
+.card-text {
+    color: #000;
+    position: inherit;
+    z-index: 3;
+    display: block;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+}
+
+
+
+@media ( max-width: 700px) {
+
+    .kits_container {
+        height: 100px;
+    }
+
+    .main-banner {
+        margin: 1rem 0 5rem 0;
+    }
+
+    .banner {
+        height: 100px;
+    }
+    
+    .banner img {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-left: 31%;
+    }
+
+    .main_content {
+        margin-top: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .main_content h3 {
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .main_content p {
+        line-height: 2.2;
+        font-size: 13px;
+    }
+
+    .car-item {
+        padding: 0rem;
+    }
+
+    .slick-slider {
+        width: 80%;
+        margin: auto;
+    }
+    
+
+}

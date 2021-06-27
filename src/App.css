@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+main {
+  min-height: 70vh;
+}
+
+.Toastify__toast {
+  direction: rtl !important;
+  font-family: inherit !important;
+}
+
+.Toastify__toast-body {
+  text-align: right !important;
+}
+
+@media(max-width: 700px) {
+  iframe {
+    width: 280px !important;
+    height: 280px !important;
+    margin: 1rem auto !important;
+  }
+}

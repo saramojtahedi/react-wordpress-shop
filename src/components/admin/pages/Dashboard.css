@@ -1,0 +1,147 @@
+
+.main_dash_container {
+    overflow-x: hidden;
+}
+
+h5 {
+    margin-bottom: 0 !important;
+    text-align: right !important;
+    font-weight: bold;
+}
+
+.main_dash_content {
+    background: #f9f9f9;
+    width: 90%;
+    margin-right: 9.5%;
+    text-align: right;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+textarea.ant-input {
+    min-height: 160px !important;
+}
+
+.ant-modal {
+    top: 30px;
+}
+
+.ant-modal-body {
+    text-align: right;
+    direction: rtl;
+    padding: 1rem !important;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns {
+    float: right;
+    margin-top: 24px;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
+
+.ant-table-thead > tr > th {
+    font-size: 15px;
+}
+
+.ant-btn > span {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.ant-table table {
+    font-size: 15px;
+}
+
+.smartAlert {
+    display: none;
+}
+
+.ant-table-pagination.ant-pagination {
+    margin: 16px 0;
+    direction: ltr;
+}
+
+@media (max-width: 700px) {
+    h5 {
+        margin-bottom: 0 !important;
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .main_dash_content {
+        width: 87%;
+        margin-right: 75px;
+        text-align: right;
+        min-height: 100vh;
+        padding: 2rem;
+    }
+    
+    textarea.ant-input {
+        min-height: 120px !important;
+    }
+
+    .ant-form-item .ant-form-item-label {
+        text-align: right !important;
+    }
+
+    .ant-form-item .ant-form-item-label label {
+        font-size: 13px;
+    }
+
+    .ant-form label {
+        font-size: 10px;
+    }
+
+    .btn {
+        text-align: center;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .ant-table-wrapper {
+        clear: both;
+        max-width: 100%;
+        display: block;
+    }
+
+    .ant-table table {
+        font-size: 10px;
+    }
+
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+        padding: 10px;
+    }
+
+    .ant-table-thead > tr > th {
+        font-size: 9px;
+    }
+
+    .ant-btn > span {
+        display: inline-block;
+        font-size: 9px;
+    }
+
+    .ant-btn {
+        font-size: 9px !important;
+        padding: 4px 0 !important;
+    }
+
+    .ant-space {
+        gap: 0px !important;
+    }
+    
+}
+
+@media (max-width: 560px) {
+    .ant-table-wrapper {
+        clear: both;
+        max-width: 100%;
+        display: none;
+    }
+
+    .smartAlert {
+        display: block;
+    }
+}

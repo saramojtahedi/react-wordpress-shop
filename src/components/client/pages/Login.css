@@ -1,0 +1,19 @@
+.form_group {
+    direction: rtl !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form_group label {
+    direction: rtl !important;
+}
+
+form button {
+    display: block !important;
+    width: 50%;
+    margin: auto !important;
+    background-color: #4371a3 !important;
+    color: #fff;
+    cursor: pointer;
+}

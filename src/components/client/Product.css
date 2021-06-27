@@ -1,0 +1,239 @@
+.image-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 50%;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.slider-img {
+    flex: 1;
+    height: 150px;
+    margin: 0 6px;
+}
+
+.shop-card {
+    width: 200%;
+    margin-left: 40% !important;
+    position: absolute;
+    left: -43%;
+    border-radius: 10px;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(0,0,0,0.1);
+    min-height: 380px;
+}
+
+.shop-card h5 , .shop-card h6 {
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem 1.2rem 1rem;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.main-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.main-price-container .pro-price {
+    font-weight: 100;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+
+.main-price-container .sale-price {
+    font-weight: bold;
+}
+
+.shop-card .quantity {
+    text-align: center;
+    margin-top: 0.7rem;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.success {
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+.shop-card button {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(44, 168, 44);
+    margin-top: 2rem;
+    border: none;
+}
+
+.shop-card button:hover {
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background-color: rgb(44, 168, 44);
+}
+
+.pro-cat {
+    background-color: transparent;
+    width: 100% !important;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+
+.pro-tags {
+    width: 100%;
+    direction: ltr;
+    text-align: right;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+.pro-tags span {
+    background-color: rgba(0,0,0, 0.05);
+    margin: 0 1rem;
+    font-size: 14px;
+    padding: 0.15rem 1rem;
+    border-radius: 5px;
+}
+
+.pro-cat span  {
+    background-color: rgba(0,0,0, 0.05);
+    margin: 0 1rem;
+    font-size: 14px;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+
+.px5 {
+    padding: 0 5rem;
+}
+
+
+@media( max-width: 700px) {
+    .px5 {
+        padding: 0rem;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+    
+    .main-image {
+        width: 100%;
+    }
+    
+    .slider {
+        overflow: hidden;
+    }
+    
+    .slider-img {
+        flex: 1;
+        height: 60px;
+        margin: 0 6px;
+    }
+
+    .pro-tags {
+        width: 100% !important;
+        float: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        direction: rtl;
+    }
+    
+    .pro-tags span {
+        background-color: rgba(0,0,0, 0.05);
+        margin: 0 0.5rem 0 0;
+        padding: 0.15rem 0.4rem;
+        font-size: 10px;
+    }
+
+    .shop-card {
+        width: 120%;
+        margin: 14% 0 8% 0;
+        position: relative;
+        right: -10%;
+        padding: 1rem 0;
+        min-height: 330px;
+    }
+    
+    .shop-card h5 , .shop-card h6 {
+        padding: 0.2rem 1rem 1rem 0rem;
+        font-size: 13px;
+    }
+    
+    .main-price-container {
+        padding: 0 1rem 0 0;
+    }
+    
+    .main-price-container .pro-price {
+        font-weight: 100;
+        margin-bottom: 0.2rem;
+        font-weight: bold;
+    }
+    
+    .shop-card .quantity {
+        font-size: 14px;
+    }
+    
+    .shop-card button {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .pro-cat {
+        display: flex;
+        align-items: center;
+        direction: rtl;
+    }
+
+    .pro-cat span  {
+        margin: 0 0.5rem;
+        font-size: 12px;
+        padding: 0.15rem 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+.p0 {
+    padding: 0 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.card-container {
+    height: 360px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.card-container {
+    height: 360px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.card {
+    height: 350px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card-container img {
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0 !important;
+    -webkit-border-radius: 5px 5px 0 0 !important;
+    -moz-border-radius: 5px 5px 0 0 !important;
+    -ms-border-radius: 5px 5px 0 0 !important;
+    -o-border-radius: 5px 5px 0 0 !important;
+}
+
+.card-container h6, .card-container h6:hover  {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.card-container p , .card-container p:hover {
+    color: #333;
+    font-size: 13px;
+    height: 118px;
+    overflow: hidden;
+    text-decoration: none !important;
+}
+
+.main-title {
+    width: 40%;
+    margin: auto;
+}

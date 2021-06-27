@@ -1,0 +1,10 @@
+
+@media(max-width: 700px) {
+    .cart-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .cart-shop {
+        margin-right: 0 !important;
+    }
+}
