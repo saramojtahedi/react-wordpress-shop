@@ -49,9 +49,9 @@ function App() {
   } , [])
 
   const api = new WooCommerceRestApi({
-        url: 'http://simamojtahedi.ir/cj',
-        consumerKey: "ck_09ce04734fa1d608ca71c77fb24158484c3d20f1" ,
-        consumerSecret: "cs_39f6bc975e7cceda69c0bf9623735ed847472d1f",
+        url: process.env.REACT_APP_WP_NAME,
+        consumerKey: process.env.REACT_APP_CONSUMER_KEY ,
+        consumerSecret: process.env.REACT_APP_CONSUMER_SECRET,
         version: "wc/v3"
     });
 

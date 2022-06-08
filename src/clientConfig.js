@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const clientConfig = {
-    Url: 'http://simamojtahedi.ir/cj'
+    Url: process.env.REACT_APP_WP_NAME
 }
 
 export default clientConfig
