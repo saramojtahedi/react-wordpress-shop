@@ -9,7 +9,6 @@ import "slick-carousel/slick/slick-theme.css";
 import App from './App';
 import store from './redux/store/index';
 
-
 ReactDOM.render (
   <Provider store={store}><App /></Provider>,
   document.getElementById('root')
